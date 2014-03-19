@@ -10,6 +10,6 @@ int main()
 	typedef char TEST[sizeof(A)? 1 : -1];
 	typedef char TEST[-1];
 	sizeof(TEST);
-	cout <<¡¡"ffff" << endl;
+	cout <<  "ffff" << endl;
 	return 0;
 }
